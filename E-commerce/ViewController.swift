@@ -46,8 +46,16 @@ class ViewController: UIViewController {
         // buton resmi boyut ayarı
         helper.scaleButtonImage(googleButtton, withImageNamed: "google")
         helper.scaleButtonImage(facebookButton, withImageNamed: "facebook")
-             
+        
+        // UITapGestureRecognizer'ı ekleyerek boş bir yere tıklanınca klavyenin kapanmasını sağla
+                let tapGesture = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
+                tapGesture.cancelsTouchesInView = false
+                view.addGestureRecognizer(tapGesture)
     }
+    // Boş bir yere dokunulduğunda klavyenin kapanmasını sağlayan metod
+       @objc func dismissKeyboard() {
+           view.endEditing(true)
+       }
 }
 // tic göster/gizle
 extension ViewController: UITextFieldDelegate {
