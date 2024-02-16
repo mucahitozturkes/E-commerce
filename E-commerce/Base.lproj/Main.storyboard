@@ -230,8 +230,11 @@
                         <outlet property="buttonView2" destination="E6F-x7-qQp" id="OJS-z2-aLw"/>
                         <outlet property="buttonView3" destination="jKS-fI-gOb" id="uaI-nJ-MYe"/>
                         <outlet property="emailTextfield" destination="Zbx-kl-2kG" id="Z9R-f3-api"/>
+                        <outlet property="facebookButton" destination="e7X-Wu-hhx" id="5tp-9T-rYo"/>
+                        <outlet property="googleButtton" destination="dj5-yo-7Dj" id="Xsy-Mn-cna"/>
                         <outlet property="nameTextfield" destination="r7E-eT-hYO" id="KEz-OS-GdN"/>
                         <outlet property="passwordTextfield" destination="ZtF-Lp-GqR" id="7jJ-2J-3CP"/>
+                        <outlet property="signupButton" destination="2qO-or-2WE" id="PAb-az-GXF"/>
                         <outlet property="tickImage" destination="E1a-EJ-2Xa" id="pWp-hJ-LM2"/>
                         <outlet property="tickImage2" destination="td9-du-A5O" id="2oz-CM-uQG"/>
                         <outlet property="tickImage3" destination="HgD-gU-h8d" id="2Lg-H8-dnw"/>

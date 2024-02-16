@@ -9,6 +9,9 @@ import UIKit
 
 class ViewController: UIViewController {
    
+    @IBOutlet weak var signupButton: UIButton!
+    @IBOutlet weak var facebookButton: UIButton!
+    @IBOutlet weak var googleButtton: UIButton!
     @IBOutlet weak var buttonView3: UIView!
     @IBOutlet weak var buttonView2: UIView!
     @IBOutlet weak var buttonView1: UIView!
@@ -35,9 +38,18 @@ class ViewController: UIViewController {
         helper.configureView(buttonView2)
         helper.configureView(buttonView3)
         
-        }
+        // gölge, buton
+        helper.configureButton(googleButtton)
+        helper.configureButton(facebookButton)
+        helper.configureButton(signupButton)
+        
+        // buton resmi boyut ayarı
+        helper.scaleButtonImage(googleButtton, withImageNamed: "google")
+        helper.scaleButtonImage(facebookButton, withImageNamed: "facebook")
+             
+    }
 }
-
+// tic göster/gizle
 extension ViewController: UITextFieldDelegate {
     func textFieldDidBeginEditing(_ textField: UITextField) {
         // Text editing başladığında image göster
@@ -61,3 +73,4 @@ extension ViewController: UITextFieldDelegate {
         }
     }
 }
+
