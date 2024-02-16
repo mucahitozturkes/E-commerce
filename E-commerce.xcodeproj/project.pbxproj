@@ -13,6 +13,7 @@
 		082DBF032B7F7CEF00136BEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 082DBF012B7F7CEF00136BEC /* Main.storyboard */; };
 		082DBF052B7F7CF100136BEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 082DBF042B7F7CF100136BEC /* Assets.xcassets */; };
 		082DBF082B7F7CF100136BEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 082DBF062B7F7CF100136BEC /* LaunchScreen.storyboard */; };
+		0881324B2B7FDB4D00EF3E5E /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0881324A2B7FDB4D00EF3E5E /* ForgotPasswordViewController.swift */; };
 		08BC87122B7FA9DF00EBAF05 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BC87112B7FA9DF00EBAF05 /* Helper.swift */; };
 		08BC87152B7FC1C000EBAF05 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BC87142B7FC1C000EBAF05 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,7 @@
 		082DBF042B7F7CF100136BEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		082DBF072B7F7CF100136BEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		082DBF092B7F7CF100136BEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0881324A2B7FDB4D00EF3E5E /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		08BC87112B7FA9DF00EBAF05 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		08BC87142B7FC1C000EBAF05 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,6 +87,7 @@
 			children = (
 				082DBEFF2B7F7CEF00136BEC /* SignupViewController.swift */,
 				08BC87142B7FC1C000EBAF05 /* LoginViewController.swift */,
+				0881324A2B7FDB4D00EF3E5E /* ForgotPasswordViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			files = (
 				082DBF002B7F7CEF00136BEC /* SignupViewController.swift in Sources */,
 				082DBEFC2B7F7CEF00136BEC /* AppDelegate.swift in Sources */,
+				0881324B2B7FDB4D00EF3E5E /* ForgotPasswordViewController.swift in Sources */,
 				082DBEFE2B7F7CEF00136BEC /* SceneDelegate.swift in Sources */,
 				08BC87152B7FC1C000EBAF05 /* LoginViewController.swift in Sources */,
 				08BC87122B7FA9DF00EBAF05 /* Helper.swift in Sources */,
