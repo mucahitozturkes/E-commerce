@@ -9,9 +9,12 @@ import UIKit
 
 class ThirdTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var collectionView2: UICollectionView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+       
+        collectionView2.register(ThirdCollectionViewCell.self, forCellWithReuseIdentifier: "CollectionView2")
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
