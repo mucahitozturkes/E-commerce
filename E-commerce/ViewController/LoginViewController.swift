@@ -32,8 +32,8 @@ class LoginViewController: UIViewController {
         passwordTextfield.delegate = self
         
         // gölge, köşe
-        helper.configureView(buttonView1)
-        helper.configureView(buttonView2)
+        helper.configureView(buttonView1, CRadius: 6)
+        helper.configureView(buttonView2, CRadius: 6)
         
         
         // gölge, buton

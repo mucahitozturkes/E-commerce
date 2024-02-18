@@ -10,7 +10,7 @@ import UIKit
 
 class Helper {
     /// UIView Blueprint
-    func configureView(_ view: UIView) {
+    func configureView(_ view: UIView, CRadius: CGFloat) {
             // UIView'a gölge eklemek
             view.layer.shadowColor = UIColor.lightGray.cgColor
             view.layer.shadowOffset = CGSize(width: 0, height: 2)
@@ -18,7 +18,7 @@ class Helper {
             view.layer.shadowRadius = 4.0
 
             // UIView'a köşe yuvarlama eklemek
-            view.layer.cornerRadius = 6.0
+            view.layer.cornerRadius = CRadius
             view.layer.masksToBounds = false // Bu satır, shadow ile ilgili görünümü etkilemektedir.
         }
     /// UIButton Blueprint
