@@ -30,7 +30,7 @@ class HomeViewController: UIViewController {
 
 extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3
+        return 4
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -47,6 +47,10 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
             let cell3 = tableView.dequeueReusableCell(withIdentifier: "Cell3", for: indexPath) as! ThirdTableViewCell
            
             return cell3
+        } else if indexPath.row == 3 {
+            let cell4 = tableView.dequeueReusableCell(withIdentifier: "Cell4", for: indexPath)
+           
+            return cell4
         }
         return UITableViewCell()
     }
@@ -58,6 +62,8 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
             return 370 // İkinci hücrenin yüksekliği
         } else if indexPath.row == 2{
             return 370 // İkinci hücrenin yüksekliği
+        } else if indexPath.row == 3{
+            return 800 // İkinci hücrenin yüksekliği
         } else {
             return 481 // üçüncü hücrenin yüksekliği
         }
