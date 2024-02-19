@@ -3,3 +3,8 @@
 ![IMG_2470](https://github.com/mucahitozturkes/E-commerce/assets/138803167/65830391-f0c9-45ee-a633-dc6c41be88df)
 ![IMG_713BD0D3200C-1](https://github.com/mucahitozturkes/E-commerce/assets/138803167/8c9f8a5f-e00a-4b89-acc8-d4287671c753)
 ![IMG_3EC3E46DBEA8-1](https://github.com/mucahitozturkes/E-commerce/assets/138803167/90476ba6-4b8e-4ebb-a84a-e1781763fc67)
+![IMG_2473](https://github.com/mucahitozturkes/E-commerce/assets/138803167/0d5633d8-189e-4cb7-ad93-67831e7abdde)
+![IMG_2474](https://github.com/mucahitozturkes/E-commerce/assets/138803167/9211f4e4-b97a-4014-9b59-5feb4cae8926)
+![IMG_2475](https://github.com/mucahitozturkes/E-commerce/assets/138803167/ead6f0df-3fb6-4bf6-ac91-6ae1ea0d4903)
+![IMG_2476](https://github.com/mucahitozturkes/E-commerce/assets/138803167/fbc44b01-242a-471e-9584-a0288bc4f810)
+![IMG_2477](https://github.com/mucahitozturkes/E-commerce/assets/138803167/18fe1e5d-bf6f-4a06-a2d5-caea4c29f24c)
