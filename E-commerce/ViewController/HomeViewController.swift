@@ -74,10 +74,10 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
 
 extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        if let secondTableViewCell = collectionView.superview?.superview as? SecondTableViewCell {
+        if collectionView.superview?.superview is SecondTableViewCell {
             return photo.count
-        } else if let thirdTableViewCell = collectionView.superview?.superview as? ThirdTableViewCell {
-            return photo.count
+        } else if collectionView.superview?.superview is ThirdTableViewCell {
+            return photo2.count
         }
         return 6
     }

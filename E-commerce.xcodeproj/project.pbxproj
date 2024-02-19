@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0804D7412B82809D007E49F1 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0804D7402B82809D007E49F1 /* ShopViewController.swift */; };
+		0804D7432B828246007E49F1 /* CatagoriTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0804D7422B828246007E49F1 /* CatagoriTableViewCell.swift */; };
+		0804D7472B828675007E49F1 /* SecondCatagoriTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0804D7462B828675007E49F1 /* SecondCatagoriTableViewCell.swift */; };
 		082DBEFC2B7F7CEF00136BEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082DBEFB2B7F7CEF00136BEC /* AppDelegate.swift */; };
 		082DBEFE2B7F7CEF00136BEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082DBEFD2B7F7CEF00136BEC /* SceneDelegate.swift */; };
 		082DBF002B7F7CEF00136BEC /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082DBEFF2B7F7CEF00136BEC /* SignupViewController.swift */; };
@@ -26,6 +29,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0804D7402B82809D007E49F1 /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		0804D7422B828246007E49F1 /* CatagoriTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatagoriTableViewCell.swift; sourceTree = "<group>"; };
+		0804D7462B828675007E49F1 /* SecondCatagoriTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCatagoriTableViewCell.swift; sourceTree = "<group>"; };
 		082DBEF82B7F7CEF00136BEC /* E-commerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-commerce.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		082DBEFB2B7F7CEF00136BEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		082DBEFD2B7F7CEF00136BEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +63,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0804D7442B828253007E49F1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0868FC112B8227F500F62E56 /* TableViewCell.swift */,
+				0868FC132B82286D00F62E56 /* SecondTableViewCell.swift */,
+				0868FC152B82287A00F62E56 /* ThirdTableViewCell.swift */,
+				0868FC172B82288C00F62E56 /* CollectionViewCell.swift */,
+				0868FC192B82289400F62E56 /* SecondCollectionViewCell.swift */,
+				0868FC1B2B82289D00F62E56 /* ThirdCollectionViewCell.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0804D7452B828262007E49F1 /* Catagori */ = {
+			isa = PBXGroup;
+			children = (
+				0804D7422B828246007E49F1 /* CatagoriTableViewCell.swift */,
+				0804D7462B828675007E49F1 /* SecondCatagoriTableViewCell.swift */,
+			);
+			path = Catagori;
+			sourceTree = "<group>";
+		};
 		082DBEEF2B7F7CEF00136BEC = {
 			isa = PBXGroup;
 			children = (
@@ -92,12 +120,8 @@
 		0881324C2B7FDF9700EF3E5E /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				0868FC112B8227F500F62E56 /* TableViewCell.swift */,
-				0868FC132B82286D00F62E56 /* SecondTableViewCell.swift */,
-				0868FC152B82287A00F62E56 /* ThirdTableViewCell.swift */,
-				0868FC172B82288C00F62E56 /* CollectionViewCell.swift */,
-				0868FC192B82289400F62E56 /* SecondCollectionViewCell.swift */,
-				0868FC1B2B82289D00F62E56 /* ThirdCollectionViewCell.swift */,
+				0804D7442B828253007E49F1 /* Home */,
+				0804D7452B828262007E49F1 /* Catagori */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -117,6 +141,7 @@
 				08BC87142B7FC1C000EBAF05 /* LoginViewController.swift */,
 				0881324A2B7FDB4D00EF3E5E /* ForgotPasswordViewController.swift */,
 				0881324D2B7FDFAE00EF3E5E /* HomeViewController.swift */,
+				0804D7402B82809D007E49F1 /* ShopViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -199,12 +224,15 @@
 				0868FC1C2B82289E00F62E56 /* ThirdCollectionViewCell.swift in Sources */,
 				082DBEFE2B7F7CEF00136BEC /* SceneDelegate.swift in Sources */,
 				0868FC142B82286D00F62E56 /* SecondTableViewCell.swift in Sources */,
+				0804D7432B828246007E49F1 /* CatagoriTableViewCell.swift in Sources */,
 				08BC87152B7FC1C000EBAF05 /* LoginViewController.swift in Sources */,
 				0868FC162B82287A00F62E56 /* ThirdTableViewCell.swift in Sources */,
 				0868FC1A2B82289400F62E56 /* SecondCollectionViewCell.swift in Sources */,
 				0881324E2B7FDFAE00EF3E5E /* HomeViewController.swift in Sources */,
 				08BC87122B7FA9DF00EBAF05 /* Helper.swift in Sources */,
+				0804D7412B82809D007E49F1 /* ShopViewController.swift in Sources */,
 				0868FC182B82288C00F62E56 /* CollectionViewCell.swift in Sources */,
+				0804D7472B828675007E49F1 /* SecondCatagoriTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
