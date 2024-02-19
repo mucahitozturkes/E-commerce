@@ -52,6 +52,8 @@ class ShopViewController: UIViewController {
         selectedLine.backgroundColor = UIColor.red
         selectedButton.titleLabel?.font = UIFont.systemFont(ofSize: 16, weight: .bold)
     }
+    
+    
 
 }
 
@@ -88,5 +90,10 @@ extension ShopViewController: UITableViewDelegate, UITableViewDataSource {
         }
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: false)
+      
+    }
+
     
 }

@@ -10,6 +10,8 @@
 		0804D7412B82809D007E49F1 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0804D7402B82809D007E49F1 /* ShopViewController.swift */; };
 		0804D7432B828246007E49F1 /* CatagoriTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0804D7422B828246007E49F1 /* CatagoriTableViewCell.swift */; };
 		0804D7472B828675007E49F1 /* SecondCatagoriTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0804D7462B828675007E49F1 /* SecondCatagoriTableViewCell.swift */; };
+		0804D7492B8387A4007E49F1 /* CatagoriViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0804D7482B8387A4007E49F1 /* CatagoriViewController.swift */; };
+		0804D74B2B83A079007E49F1 /* catagoriListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0804D74A2B83A079007E49F1 /* catagoriListViewController.swift */; };
 		082DBEFC2B7F7CEF00136BEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082DBEFB2B7F7CEF00136BEC /* AppDelegate.swift */; };
 		082DBEFE2B7F7CEF00136BEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082DBEFD2B7F7CEF00136BEC /* SceneDelegate.swift */; };
 		082DBF002B7F7CEF00136BEC /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082DBEFF2B7F7CEF00136BEC /* SignupViewController.swift */; };
@@ -32,6 +34,8 @@
 		0804D7402B82809D007E49F1 /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
 		0804D7422B828246007E49F1 /* CatagoriTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatagoriTableViewCell.swift; sourceTree = "<group>"; };
 		0804D7462B828675007E49F1 /* SecondCatagoriTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCatagoriTableViewCell.swift; sourceTree = "<group>"; };
+		0804D7482B8387A4007E49F1 /* CatagoriViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatagoriViewController.swift; sourceTree = "<group>"; };
+		0804D74A2B83A079007E49F1 /* catagoriListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catagoriListViewController.swift; sourceTree = "<group>"; };
 		082DBEF82B7F7CEF00136BEC /* E-commerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-commerce.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		082DBEFB2B7F7CEF00136BEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		082DBEFD2B7F7CEF00136BEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -142,6 +146,8 @@
 				0881324A2B7FDB4D00EF3E5E /* ForgotPasswordViewController.swift */,
 				0881324D2B7FDFAE00EF3E5E /* HomeViewController.swift */,
 				0804D7402B82809D007E49F1 /* ShopViewController.swift */,
+				0804D7482B8387A4007E49F1 /* CatagoriViewController.swift */,
+				0804D74A2B83A079007E49F1 /* catagoriListViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -222,6 +228,8 @@
 				082DBEFC2B7F7CEF00136BEC /* AppDelegate.swift in Sources */,
 				0881324B2B7FDB4D00EF3E5E /* ForgotPasswordViewController.swift in Sources */,
 				0868FC1C2B82289E00F62E56 /* ThirdCollectionViewCell.swift in Sources */,
+				0804D7492B8387A4007E49F1 /* CatagoriViewController.swift in Sources */,
+				0804D74B2B83A079007E49F1 /* catagoriListViewController.swift in Sources */,
 				082DBEFE2B7F7CEF00136BEC /* SceneDelegate.swift in Sources */,
 				0868FC142B82286D00F62E56 /* SecondTableViewCell.swift in Sources */,
 				0804D7432B828246007E49F1 /* CatagoriTableViewCell.swift in Sources */,

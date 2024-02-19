@@ -42,8 +42,8 @@ class LoginViewController: UIViewController {
         helper.configureButton(loginButton)
         
         // buton resmi boyut ayarı
-        helper.scaleButtonImage(googleButtton, withImageNamed: "google")
-        helper.scaleButtonImage(facebookButton, withImageNamed: "facebook")
+        helper.scaleButtonImage(googleButtton, withImageNamed: "google", scaleFloat: 0.5)
+        helper.scaleButtonImage(facebookButton, withImageNamed: "facebook", scaleFloat: 0.5)
         
         // UITapGestureRecognizer'ı ekleyerek boş bir yere tıklanınca klavyenin kapanmasını sağla
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))

@@ -34,8 +34,8 @@ class Helper {
            button.layer.masksToBounds = false // Bu satır, shadow ile ilgili görünümü etkilemektedir.
        }
     /// buton içi resim scale Blueprint
-    func scaleButtonImage(_ button: UIButton, withImageNamed imageName: String) {
-        if let image = UIImage(named: imageName)?.resized(withScale: 0.5) {
+    func scaleButtonImage(_ button: UIButton, withImageNamed imageName: String, scaleFloat: CGFloat) {
+        if let image = UIImage(named: imageName)?.resized(withScale: scaleFloat) {
             button.setImage(image, for: .normal)
             button.imageView?.contentMode = .scaleAspectFit
         }
