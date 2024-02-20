@@ -28,6 +28,8 @@
 		0881324E2B7FDFAE00EF3E5E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0881324D2B7FDFAE00EF3E5E /* HomeViewController.swift */; };
 		08BC87122B7FA9DF00EBAF05 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BC87112B7FA9DF00EBAF05 /* Helper.swift */; };
 		08BC87152B7FC1C000EBAF05 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BC87142B7FC1C000EBAF05 /* LoginViewController.swift */; };
+		08CBB5552B83B7D600C18FDD /* FiltersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CBB5542B83B7D600C18FDD /* FiltersViewController.swift */; };
+		08CBB55E2B83CDAE00C18FDD /* WARangeSlider in Frameworks */ = {isa = PBXBuildFile; productRef = 08CBB55D2B83CDAE00C18FDD /* WARangeSlider */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +56,7 @@
 		0881324D2B7FDFAE00EF3E5E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		08BC87112B7FA9DF00EBAF05 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		08BC87142B7FC1C000EBAF05 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		08CBB5542B83B7D600C18FDD /* FiltersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08CBB55E2B83CDAE00C18FDD /* WARangeSlider in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +152,7 @@
 				0804D7402B82809D007E49F1 /* ShopViewController.swift */,
 				0804D7482B8387A4007E49F1 /* CatagoriViewController.swift */,
 				0804D74A2B83A079007E49F1 /* catagoriListViewController.swift */,
+				08CBB5542B83B7D600C18FDD /* FiltersViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -168,6 +173,9 @@
 			dependencies = (
 			);
 			name = "E-commerce";
+			packageProductDependencies = (
+				08CBB55D2B83CDAE00C18FDD /* WARangeSlider */,
+			);
 			productName = "E-commerce";
 			productReference = 082DBEF82B7F7CEF00136BEC /* E-commerce.app */;
 			productType = "com.apple.product-type.application";
@@ -196,6 +204,9 @@
 				Base,
 			);
 			mainGroup = 082DBEEF2B7F7CEF00136BEC;
+			packageReferences = (
+				08CBB55C2B83CDAE00C18FDD /* XCRemoteSwiftPackageReference "RangeSlider" */,
+			);
 			productRefGroup = 082DBEF92B7F7CEF00136BEC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -230,6 +241,7 @@
 				0868FC1C2B82289E00F62E56 /* ThirdCollectionViewCell.swift in Sources */,
 				0804D7492B8387A4007E49F1 /* CatagoriViewController.swift in Sources */,
 				0804D74B2B83A079007E49F1 /* catagoriListViewController.swift in Sources */,
+				08CBB5552B83B7D600C18FDD /* FiltersViewController.swift in Sources */,
 				082DBEFE2B7F7CEF00136BEC /* SceneDelegate.swift in Sources */,
 				0868FC142B82286D00F62E56 /* SecondTableViewCell.swift in Sources */,
 				0804D7432B828246007E49F1 /* CatagoriTableViewCell.swift in Sources */,
@@ -463,6 +475,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		08CBB55C2B83CDAE00C18FDD /* XCRemoteSwiftPackageReference "RangeSlider" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/warchimede/RangeSlider.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		08CBB55D2B83CDAE00C18FDD /* WARangeSlider */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 08CBB55C2B83CDAE00C18FDD /* XCRemoteSwiftPackageReference "RangeSlider" */;
+			productName = WARangeSlider;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 082DBEF02B7F7CEF00136BEC /* Project object */;
 }
