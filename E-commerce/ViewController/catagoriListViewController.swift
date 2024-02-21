@@ -28,7 +28,16 @@ class catagoriListViewController: UIViewController {
         helper.scaleButtonImage(filtersButton, withImageNamed: "filters", scaleFloat: 0.6)
     }
     
+    @objc func showMiracle() {
+        let slideVC = OverlayView()
+        slideVC.modalPresentationStyle = .custom
+        slideVC.transitioningDelegate = self
+        self.present(slideVC, animated: true, completion: nil)
+    }
 
+    @IBAction func onButton(_sender: Any) {
+        showMiracle()
+    }
 
 }
 extension catagoriListViewController:UICollectionViewDelegate, UICollectionViewDataSource {
@@ -53,4 +62,10 @@ extension catagoriListViewController:UICollectionViewDelegate, UICollectionViewD
 class CVCell: UICollectionViewCell {
     @IBOutlet weak var addsButtons: UIButton!
     
+}
+extension catagoriListViewController: UIViewControllerTransitioningDelegate {
+    func presentationController(forPresented presented: UIViewController,
+                                presenting: UIViewController?, source: UIViewController) -> UIPresentationController? {
+        PresentationController(presentedViewController: presented, presenting: presenting)
+    }
 }

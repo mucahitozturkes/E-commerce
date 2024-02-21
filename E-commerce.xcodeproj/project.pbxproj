@@ -30,6 +30,9 @@
 		08BC87152B7FC1C000EBAF05 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BC87142B7FC1C000EBAF05 /* LoginViewController.swift */; };
 		08CBB5552B83B7D600C18FDD /* FiltersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CBB5542B83B7D600C18FDD /* FiltersViewController.swift */; };
 		08CBB55E2B83CDAE00C18FDD /* WARangeSlider in Frameworks */ = {isa = PBXBuildFile; productRef = 08CBB55D2B83CDAE00C18FDD /* WARangeSlider */; };
+		08CBB5692B84F09E00C18FDD /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CBB5672B84F09D00C18FDD /* OverlayView.swift */; };
+		08CBB56A2B84F09E00C18FDD /* OverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08CBB5682B84F09E00C18FDD /* OverlayView.xib */; };
+		08CBB56C2B84F0A200C18FDD /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CBB56B2B84F0A200C18FDD /* PresentationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +60,9 @@
 		08BC87112B7FA9DF00EBAF05 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		08BC87142B7FC1C000EBAF05 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		08CBB5542B83B7D600C18FDD /* FiltersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersViewController.swift; sourceTree = "<group>"; };
+		08CBB5672B84F09D00C18FDD /* OverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
+		08CBB5682B84F09E00C18FDD /* OverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverlayView.xib; sourceTree = "<group>"; };
+		08CBB56B2B84F0A200C18FDD /* PresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,7 @@
 				082DBF042B7F7CF100136BEC /* Assets.xcassets */,
 				082DBEFB2B7F7CEF00136BEC /* AppDelegate.swift */,
 				082DBEFD2B7F7CEF00136BEC /* SceneDelegate.swift */,
+				08CBB5662B84F08300C18FDD /* Half-vc */,
 				0881324C2B7FDF9700EF3E5E /* Cells */,
 				08BC87132B7FC1A200EBAF05 /* ViewController */,
 				08BC87102B7FA9CE00EBAF05 /* Model */,
@@ -138,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				08BC87112B7FA9DF00EBAF05 /* Helper.swift */,
+				08CBB56B2B84F0A200C18FDD /* PresentationController.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -155,6 +163,15 @@
 				08CBB5542B83B7D600C18FDD /* FiltersViewController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		08CBB5662B84F08300C18FDD /* Half-vc */ = {
+			isa = PBXGroup;
+			children = (
+				08CBB5672B84F09D00C18FDD /* OverlayView.swift */,
+				08CBB5682B84F09E00C18FDD /* OverlayView.xib */,
+			);
+			path = "Half-vc";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +204,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					"Buton 1",
+				);
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
@@ -222,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				082DBF082B7F7CF100136BEC /* LaunchScreen.storyboard in Resources */,
+				08CBB56A2B84F09E00C18FDD /* OverlayView.xib in Resources */,
 				082DBF052B7F7CF100136BEC /* Assets.xcassets in Resources */,
 				082DBF032B7F7CEF00136BEC /* Main.storyboard in Resources */,
 			);
@@ -236,6 +257,7 @@
 			files = (
 				082DBF002B7F7CEF00136BEC /* SignupViewController.swift in Sources */,
 				0868FC122B8227F500F62E56 /* TableViewCell.swift in Sources */,
+				08CBB56C2B84F0A200C18FDD /* PresentationController.swift in Sources */,
 				082DBEFC2B7F7CEF00136BEC /* AppDelegate.swift in Sources */,
 				0881324B2B7FDB4D00EF3E5E /* ForgotPasswordViewController.swift in Sources */,
 				0868FC1C2B82289E00F62E56 /* ThirdCollectionViewCell.swift in Sources */,
@@ -243,6 +265,7 @@
 				0804D74B2B83A079007E49F1 /* catagoriListViewController.swift in Sources */,
 				08CBB5552B83B7D600C18FDD /* FiltersViewController.swift in Sources */,
 				082DBEFE2B7F7CEF00136BEC /* SceneDelegate.swift in Sources */,
+				08CBB5692B84F09E00C18FDD /* OverlayView.swift in Sources */,
 				0868FC142B82286D00F62E56 /* SecondTableViewCell.swift in Sources */,
 				0804D7432B828246007E49F1 /* CatagoriTableViewCell.swift in Sources */,
 				08BC87152B7FC1C000EBAF05 /* LoginViewController.swift in Sources */,

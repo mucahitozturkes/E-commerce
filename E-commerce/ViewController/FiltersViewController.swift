@@ -60,7 +60,8 @@ class FiltersViewController: UIViewController {
         rangeSlider1.lowerValue = 0
         rangeSlider1.upperValue = 5000
         priceView.addSubview(rangeSlider1)
-        
+        rangeSlider1.thumbBorderColor = .button
+        rangeSlider1.thumbBorderWidth = 1
         rangeSlider1.addTarget(self, action: #selector(FiltersViewController.rangeSliderValueChanged(_:)), for: .valueChanged)
         
         // Initialize selected states for each cell
@@ -78,12 +79,10 @@ class FiltersViewController: UIViewController {
         helper.configureView(boysView, CRadius: 5)
         helper.configureView(girlsView, CRadius: 5)
         
-        
         // Default renkleri ayarla
         setDefaultColors()
         setDefaultColors2()
 
-        // Her bir eleman için tıklama olayını ekle
         addTapGesture(to: sizes1, label: xsLabel)
         addTapGesture(to: sizes2, label: sLabel)
         addTapGesture(to: sizes3, label: mLabel)
