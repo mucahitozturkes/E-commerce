@@ -16,15 +16,15 @@ class PresentationController: UIPresentationController {
     }
     
     override var frameOfPresentedViewInContainerView: CGRect {
-        CGRect(origin: CGPoint(x: 0, y: self.containerView!.frame.height * 0.4),
-               size: CGSizeMake(self.containerView!.frame.width, self.containerView!.frame.height * 0.6))
+        CGRect(origin: CGPoint(x: 0, y: self.containerView!.frame.height * 0.6),
+               size: CGSizeMake(self.containerView!.frame.width, self.containerView!.frame.height * 0.7))
     }
     
     override func presentationTransitionWillBegin() {
         self.blurEffectView.alpha = 0
         self.containerView?.addSubview(blurEffectView)
         self.presentedViewController.transitionCoordinator?.animate(alongsideTransition: { UIViewControllerTransitionCoordinatorContext in
-            self.blurEffectView.alpha = 0.7
+            self.blurEffectView.alpha = 0.4
         }, completion: { UIViewControllerTransitionCoordinatorContext in })
     }
     
@@ -38,7 +38,7 @@ class PresentationController: UIPresentationController {
     
     override func containerViewWillLayoutSubviews() {
         super.containerViewDidLayoutSubviews()
-        presentedView!.roundCorners([.topLeft, .topRight], radius: 22)
+        presentedView!.roundCorners([.topLeft, .topRight], radius: 30)
     }
     
     override func containerViewDidLayoutSubviews() {

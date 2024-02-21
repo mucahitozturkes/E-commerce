@@ -10,6 +10,7 @@ import UIKit
 class OverlayView: UIViewController {
     
     @IBOutlet weak var topView: UIView!
+    
     var hasSetPointOrigin = false
     var pointOrigin: CGPoint?
     var helper = Helper()
@@ -46,14 +47,6 @@ class OverlayView: UIViewController {
             
         }
     }
-    
-    
-
         
-        
-        
-        
-        
-        
-    }
+}
 

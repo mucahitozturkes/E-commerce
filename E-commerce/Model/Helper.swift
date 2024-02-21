@@ -41,6 +41,13 @@ class Helper {
         }
         
     }
+    func scaleBarButtonImage(_ button: UIBarButtonItem, withImageNamed imageName: String, scaleFloat: CGFloat) {
+        if let image = UIImage(named: imageName)?.resized(withScale: scaleFloat) {
+            button.image = image
+            button.image?.withRenderingMode(.alwaysOriginal) // İkonun orijinal rengini kullanmak için bu satırı ekleyebilirsiniz.
+        }
+    }
+
 }
 // UIImage'ı belirli bir ölçekte yeniden boyutlandırmak
 extension UIImage {

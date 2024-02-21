@@ -12,6 +12,7 @@
 		0804D7472B828675007E49F1 /* SecondCatagoriTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0804D7462B828675007E49F1 /* SecondCatagoriTableViewCell.swift */; };
 		0804D7492B8387A4007E49F1 /* CatagoriViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0804D7482B8387A4007E49F1 /* CatagoriViewController.swift */; };
 		0804D74B2B83A079007E49F1 /* catagoriListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0804D74A2B83A079007E49F1 /* catagoriListViewController.swift */; };
+		082251EC2B8619EF0025FF00 /* addCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082251EB2B8619EF0025FF00 /* addCartViewController.swift */; };
 		082DBEFC2B7F7CEF00136BEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082DBEFB2B7F7CEF00136BEC /* AppDelegate.swift */; };
 		082DBEFE2B7F7CEF00136BEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082DBEFD2B7F7CEF00136BEC /* SceneDelegate.swift */; };
 		082DBF002B7F7CEF00136BEC /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082DBEFF2B7F7CEF00136BEC /* SignupViewController.swift */; };
@@ -24,6 +25,8 @@
 		0868FC182B82288C00F62E56 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0868FC172B82288C00F62E56 /* CollectionViewCell.swift */; };
 		0868FC1A2B82289400F62E56 /* SecondCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0868FC192B82289400F62E56 /* SecondCollectionViewCell.swift */; };
 		0868FC1C2B82289E00F62E56 /* ThirdCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0868FC1B2B82289D00F62E56 /* ThirdCollectionViewCell.swift */; };
+		08693E012B85F35B0037E42F /* OverlayViewTwo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08693E002B85F35B0037E42F /* OverlayViewTwo.xib */; };
+		08693E032B85F5730037E42F /* OverlayTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08693E022B85F5730037E42F /* OverlayTwo.swift */; };
 		0881324B2B7FDB4D00EF3E5E /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0881324A2B7FDB4D00EF3E5E /* ForgotPasswordViewController.swift */; };
 		0881324E2B7FDFAE00EF3E5E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0881324D2B7FDFAE00EF3E5E /* HomeViewController.swift */; };
 		08BC87122B7FA9DF00EBAF05 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BC87112B7FA9DF00EBAF05 /* Helper.swift */; };
@@ -41,6 +44,7 @@
 		0804D7462B828675007E49F1 /* SecondCatagoriTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCatagoriTableViewCell.swift; sourceTree = "<group>"; };
 		0804D7482B8387A4007E49F1 /* CatagoriViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatagoriViewController.swift; sourceTree = "<group>"; };
 		0804D74A2B83A079007E49F1 /* catagoriListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catagoriListViewController.swift; sourceTree = "<group>"; };
+		082251EB2B8619EF0025FF00 /* addCartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addCartViewController.swift; sourceTree = "<group>"; };
 		082DBEF82B7F7CEF00136BEC /* E-commerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-commerce.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		082DBEFB2B7F7CEF00136BEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		082DBEFD2B7F7CEF00136BEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 		0868FC172B82288C00F62E56 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		0868FC192B82289400F62E56 /* SecondCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCollectionViewCell.swift; sourceTree = "<group>"; };
 		0868FC1B2B82289D00F62E56 /* ThirdCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdCollectionViewCell.swift; sourceTree = "<group>"; };
+		08693E002B85F35B0037E42F /* OverlayViewTwo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OverlayViewTwo.xib; sourceTree = "<group>"; };
+		08693E022B85F5730037E42F /* OverlayTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayTwo.swift; sourceTree = "<group>"; };
 		0881324A2B7FDB4D00EF3E5E /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
 		0881324D2B7FDFAE00EF3E5E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		08BC87112B7FA9DF00EBAF05 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
@@ -161,6 +167,7 @@
 				0804D7482B8387A4007E49F1 /* CatagoriViewController.swift */,
 				0804D74A2B83A079007E49F1 /* catagoriListViewController.swift */,
 				08CBB5542B83B7D600C18FDD /* FiltersViewController.swift */,
+				082251EB2B8619EF0025FF00 /* addCartViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -170,6 +177,8 @@
 			children = (
 				08CBB5672B84F09D00C18FDD /* OverlayView.swift */,
 				08CBB5682B84F09E00C18FDD /* OverlayView.xib */,
+				08693E022B85F5730037E42F /* OverlayTwo.swift */,
+				08693E002B85F35B0037E42F /* OverlayViewTwo.xib */,
 			);
 			path = "Half-vc";
 			sourceTree = "<group>";
@@ -241,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08693E012B85F35B0037E42F /* OverlayViewTwo.xib in Resources */,
 				082DBF082B7F7CF100136BEC /* LaunchScreen.storyboard in Resources */,
 				08CBB56A2B84F09E00C18FDD /* OverlayView.xib in Resources */,
 				082DBF052B7F7CF100136BEC /* Assets.xcassets in Resources */,
@@ -264,6 +274,8 @@
 				0804D7492B8387A4007E49F1 /* CatagoriViewController.swift in Sources */,
 				0804D74B2B83A079007E49F1 /* catagoriListViewController.swift in Sources */,
 				08CBB5552B83B7D600C18FDD /* FiltersViewController.swift in Sources */,
+				082251EC2B8619EF0025FF00 /* addCartViewController.swift in Sources */,
+				08693E032B85F5730037E42F /* OverlayTwo.swift in Sources */,
 				082DBEFE2B7F7CEF00136BEC /* SceneDelegate.swift in Sources */,
 				08CBB5692B84F09E00C18FDD /* OverlayView.swift in Sources */,
 				0868FC142B82286D00F62E56 /* SecondTableViewCell.swift in Sources */,
